@@ -1,9 +1,0 @@
-streamlit
-transformers
-torch
-scikit-learn
-librosa
-sounddevice
-numpy
-pandas
-nltk
