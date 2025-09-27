@@ -30,17 +30,26 @@ Joblib (Model persistence)
 
 Google Colab (Model training)
 
-Datasets:
+Dataset
 
-RAVDESS Dataset
- – Speech Emotion Recognition
+Original dataset: RAVDESS Audio Speech Emotion Dataset
+
+Not included in repo due to size; download locally and place in data/ folder.
 
 Kaggle Emotion Text Dataset – Text Emotion Classification
 
+Models
+
+text_emotion_model.pkl → Text-based emotion detection model
+
+voice_emotion_model.pkl → Voice-based emotion detection model
+
+vectorizer.pkl → TF-IDF vectorizer for text preprocessing
+
 ⚡ Installation & Setup
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/mental_health_chatbot.git
-cd mental_health_chatbot
+git clone https://github.com/KVJ51/elevatelab-ai-ml-internship.git
+cd clean_repo
 
 2️⃣ Create Virtual Environment & Install Dependencies
 python -m venv venv
