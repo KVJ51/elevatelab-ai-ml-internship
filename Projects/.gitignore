@@ -1,0 +1,24 @@
+# Virtual environment
+venv/
+
+*.zip
+
+# VS Code settings
+.vscode/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Other files you don't want to track
+.DS_Store
+
+# Ignore datasets
+data/
+*.wav
+*.mp3
